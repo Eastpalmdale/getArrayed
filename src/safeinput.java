@@ -247,7 +247,7 @@ public class safeinput {
 
         }
 
-        average = total / 100;
+        average = total / 101;
 
 
         return average;
