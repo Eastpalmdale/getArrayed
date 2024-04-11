@@ -10,8 +10,6 @@ public class task1 {
 
         int [] dataPoints = new int [100];
 
-        int min = dataPoints[0];
-        int max = dataPoints[99];
 
         Random rnd = new Random();
 
@@ -50,7 +48,8 @@ public class task1 {
             }
 
         }
-
+        int max = safeinput.max(dataPoints);
+        int min = safeinput.min(dataPoints);
         System.out.println("The minimum in the array is "+min+" the max found is "+max);
         System.out.println("The average in the array is "+safeinput.getAverage(dataPoints));
 
